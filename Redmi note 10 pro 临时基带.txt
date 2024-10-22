@@ -1,0 +1,13 @@
+Redmi note 10 pro  MIUI 14.0.7.0.TKPCNXM  临时基带 
+把文件放在一起
+fastboot flash boot_a boot_a.img
+fastboot reboot fastboot
+fastboot flash nvdata nvdata.img
+fastboot flash nvram nvram.img
+fastboot flash protect1 protect1.img
+fastboot flash protect2 protect2.img
+fastboot flash nvcfg nvcfg.img
+fastboot reboot
+
+
+fastboot flash md1img
